@@ -10,69 +10,6 @@ st.markdown("""
 background: linear-gradient(135deg,#2F80ED,#27AE60);
 }
 
-.main{
-padding-top:0rem;
-}
-
-.container{
-display:flex;
-height:100vh;
-}
-
-.left{
-flex:1;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-color:white;
-text-align:center;
-}
-
-.left h1{
-font-size:42px;
-font-weight:700;
-}
-
-.left p{
-font-size:22px;
-opacity:0.9;
-}
-
-.right{
-flex:1;
-display:flex;
-justify-content:center;
-align-items:center;
-}
-
-.login-card{
-background:white;
-padding:40px;
-border-radius:20px;
-box-shadow:0 10px 30px rgba(0,0,0,0.2);
-width:420px;
-}
-
-.logo{
-display:flex;
-align-items:center;
-gap:10px;
-justify-content:center;
-margin-bottom:20px;
-}
-
-.logo-box{
-width:40px;
-height:40px;
-background:linear-gradient(135deg,#2F80ED,#27AE60);
-border-radius:10px;
-display:flex;
-align-items:center;
-justify-content:center;
-color:white;
-font-weight:bold;
-}
 button[kind="primary"]{
 background:#0B5ED7 !important;
 color:white !important;
@@ -83,13 +20,20 @@ border-radius:8px;
 
 button[kind="primary"]:hover{
 background:#084298 !important;
-color:white !important;
 }
+
+a{
+color:white !important;
+text-decoration:none;
+font-weight:500;
+}
+
+a:hover{
+text-decoration:underline;
 }
 
 </style>
 """, unsafe_allow_html=True)
-
 left,right = st.columns([1.2,1])
 
 # LEFT SIDE
