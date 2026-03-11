@@ -105,9 +105,6 @@ with right:
 
         if role=="Choose role":
             errors.append("Select role")
-%%writefile app.py
-import streamlit as st
-import re
 
 st.set_page_config(page_title="NivaraHealth", layout="wide")
 
