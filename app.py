@@ -73,10 +73,18 @@ justify-content:center;
 color:white;
 font-weight:bold;
 }
-
 button[kind="primary"]{
-background:linear-gradient(to right,#2F80ED,#27AE60);
+background:#0B5ED7 !important;
+color:white !important;
+font-weight:600;
 border:none;
+border-radius:8px;
+}
+
+button[kind="primary"]:hover{
+background:#084298 !important;
+color:white !important;
+}
 }
 
 </style>
